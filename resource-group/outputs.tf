@@ -1,6 +1,6 @@
 output "resource_group_name" {
   description = "Resource Group Name"
-  value = azurerm_resource_group.rg.resource_group_name
+  value = azurerm_resource_group.rg.name
 }
 
 output "rg_id" {
