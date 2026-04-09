@@ -14,3 +14,9 @@ variable "resource_group_name" {
     type = string
   
 }
+
+variable "address_space" {
+  description = "The range of the vnet address"
+  type = list(string)
+  
+}
