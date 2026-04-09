@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-output "resource_group" {
-=======
-output "resource_group_name" {
->>>>>>> c0684d2214cf8b67694ceadf3d8696fc0397f5c7
-  description = "Resource Group Name"
-  value = azurerm_resource_group.rg.name
+output "resource-group" {
+  description = "Name of the resource group"
+  value = azurerm_resource_group.resource_group
+  
 }
 
 output "rg_id" {
