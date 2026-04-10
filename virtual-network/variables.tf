@@ -20,3 +20,15 @@ variable "address_space" {
   type = list(string)
   
 }
+
+variable "subnet_name" {
+  description = "Name of the subnet"
+  type = string
+  
+}
+
+variable "address_prefixes" {
+  description = "Address prefix of the subnet"
+  type = list(string)
+  
+}
